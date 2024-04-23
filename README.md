@@ -1,24 +1,22 @@
-# pokedex-maino
+# <h1 align="center">Pokedex Vue</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green">
+</p>
+<sub><sup><i>// ℹ️ Projeto fictício.</i></sup></sub>
 
-## Project setup
-```
-npm install
-```
+## 📁 Acesso ao Projeto
+Para acessar o projeto, clique <a href="https://pokedex-vuejs-omega.vercel.app/#/" target="_blank">aqui</a>.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## ✔️ Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
+- Vuex
+- Vue.js
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## ℹ️ Sobre o Projeto
+Projeto realizado para praticar o framework Vue.js
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Autor
+**Davi Reghim de Salles Santana**  
+LinkedIn: [Davi Reghim](https://www.linkedin.com/in/davi-reghim-13b995272/)
