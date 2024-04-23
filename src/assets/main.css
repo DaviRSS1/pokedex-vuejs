@@ -1,0 +1,220 @@
+:root {
+    --coral: #DF524B;
+    --coral-claro: #FFDBD1;
+    --creme: #FFFAF3;
+    --verde-escuro: #263A29;
+    --verde-agua: #00905F;
+    --cinza: #444444;
+    --cinza-claro: #EFEFEF;
+    --branco: #FFF;
+
+    --font-family-padrao: Nunito Sans, sans-serif;
+    --cabecalhos: "Platypi", serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+button {
+    border: 0;
+    background-color: inherit;
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--creme);
+    font-family: var(--font-family-padrao);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--verde-agua);
+}
+
+.cabecalho-lg {
+    font-family: var(--cabecalhos);
+    font-size: 3.35625em;
+    line-height: 120%;
+    /* 4.0275em */
+}
+
+.cabecalho {
+    font-family: var(--cabecalhos);
+    font-size: 2.75em;
+    line-height: 120%;
+    /* 3.3em */
+}
+
+.subtitulo-lg {
+    font-size: 1.9375em;
+    line-height: 150%;
+    /* 2.90625em */
+}
+
+.paragrafo-lg {
+    font-size: 1.375em;
+    line-height: 150%;
+    /* 2.90625em */
+}
+
+.paragrafo {
+    font-size: 1.125em;
+    line-height: 150%;
+    /* 1.6875em */
+}
+
+.clean-link{
+    text-decoration: none;
+    color: var(--cinza);
+    
+}
+
+.grass, .planta{
+    background-color:#77CC55;
+    color: var(--branco);
+}
+
+.fighting, .lucha{
+    background-color: #BB5544;
+    color: var(--branco)
+}
+
+.ground, .tierra{
+    background-color: #E2C56E ;
+    color: var(--branco)
+}
+
+.rock, .roca{
+    background-color: #BBAA66 ;
+    color: var(--branco)
+}
+
+.bug, .bicho{
+    background-color: #B7C543;
+    color: var(--branco)
+}  
+
+.ghost, .fantasma{
+    background-color: #6666BB;
+    color: var(--branco)
+}
+
+.steel, .acero{
+    background-color: #AAAABB;
+    color: var(--branco)
+}
+
+.fire, .fuego{
+    background-color: #FF4422;
+    color: var(--branco)
+}
+
+.water, .agua{
+    background-color: #3399FF;
+    color: var(--branco)
+}
+
+.grass, .planta{
+    background-color: #8BD46E;
+    color: var(--branco)
+}
+
+.electric, .electrico{
+    background-color: #FFCC33;
+    color: var(--branco)
+}
+
+.psychic, .psiquico{
+    background-color: #FF5599;
+    color: var(--branco)
+}
+
+.ice, .hielo{
+    background-color: #66CCFF;
+    color: var(--branco)
+}
+
+.dragon{
+    background-color: #7766EE;
+    color: var(--branco)
+}
+
+.dark, .siniestro{
+    background-color: #775544;
+    color: var(--branco)
+}
+
+.fairy, .hada{
+    background-color: #EE99EE;
+    color: var(--branco)
+}
+
+.poison, .veneno{
+    background-color: #AA5599;
+    color: var(--branco)
+}
+
+.flying, .volador{
+    background-color: #8899FF;
+    color: var(--branco)
+}
+
+.normal{
+    background-color: #AAAA99;
+    color: var(--branco)
+}
+
+.hp,
+.ps {
+    background-color: #ff6666;
+}
+
+.attack,
+.ataque {
+    background-color: #ffae42;
+}
+
+.defense,
+.defensa {
+    background-color: #85c1e9;
+}
+
+.special-attack,
+.ataque-especial {
+    background-color: #b76bff;
+}
+
+.special-defense,
+.defensa-especial {
+    background-color: #ff99cc;
+}
+
+.speed,
+.velocidad {
+    background-color: #008000;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .cabecalho-lg {
+        font-size: 2.75em;
+    }
+
+    .cabecalho {
+        font-size: 2.3125em;
+    }
+
+    .subtitulo-lg {
+        font-size: 1.625em;
+    }
+}
